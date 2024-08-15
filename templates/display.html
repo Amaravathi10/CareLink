@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortage List</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/shortage-list.css') }}">
+    <script>
+        async function promptForAddress() {
+            if (confirm("Would you like to provide your address for better service?")) {
+                const address = prompt("Please enter your address:");
+                if (address) {
+                    await filterShortages(address);
+                }
+            } else {
+                // Sending empty address to trigger IP-based geolocation
+                await filterShortages("");
+            }
+        }
+
+        async function filterShortages(address) {
+            try {
+                const response = await fetch("/report_address", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ address: address })
+                });
+                const data = await response.json();
+                if (data.status === "success") {
+                    updateHospitalList(data.nearest_hospitals);
+                } else {
+                    console.error("Error:", data.message);
+                    alert("Error: " + data.message);
+                }
+            } catch (error) {
+                console.error("Fetch error:", error);
+                alert("There was an error processing your address.");
+            }
+        }
+
+        function updateHospitalList(hospitals) {
+            const hospitalListContainer = document.getElementById('hospital-list');
+            hospitalListContainer.innerHTML = '';
+
+            if (hospitals.length === 0) {
+                hospitalListContainer.innerHTML = '<p>No hospitals found near your address.</p>';
+                return;
+            }
+
+            const list = document.createElement('ul');
+            hospitals.forEach(hospital => {
+                const listItem = document.createElement('li');
+                const link = document.createElement('a');
+                const encodedName = encodeURIComponent(hospital.hospital_name); // Correct encoding
+                link.href = `/shortage/${encodedName}`;
+                link.textContent = `${hospital.hospital_name} needs ${hospital.quantity_needed} units`;
+                listItem.appendChild(link);
+                list.appendChild(listItem);
+            });
+            hospitalListContainer.appendChild(list);
+        }
+
+        window.onload = promptForAddress;
+    </script>
+</head>
+<body>
+    <h1>List of Reported Shortages</h1>
+    <div id="hospital-list" class="hospital-list">
+        <!-- Filtered hospitals will be displayed here -->
+        {% if shortages %}
+            <ul>
+                {% for shortage in shortages %}
+                <li>
+                    <a href="{{ url_for('shortage_detail', hospital_name=shortage.hospital_name|urlencode) }}">
+                        {{ shortage.hospital_name }} - {{ shortage.supply_type }} - {{ shortage.quantity_needed }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No shortages reported yet.</p>
+        {% endif %}
+    </div>
+    <a href="{{ url_for('distrubation') }}">Back to Main Menu</a>
+</body>
+</html>

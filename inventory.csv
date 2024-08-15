@@ -1,0 +1,101 @@
+Store Name,Location,Pin Code,Contact Name,Contact No,Supply ID,Supply Name,Quantity,Expiry Date
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC001,Paracetamol,150,2025-03-15
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC002,Ibuprofen,100,2025-06-30
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC003,Aspirin,120,2025-01-10
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC004,Antibiotic Cream,75,2024-10-05
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC005,Saline Solution,60,2024-08-29
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC006,Insulin,50,2025-01-25
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC007,Vitamin C Tablets,120,2025-06-18
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC008,Cough Syrup,80,2024-11-30
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC009,Allergy Medicine,100,2025-05-10
+Hyderabad Health Care,Hyderabad,500001,Dr. Ramesh Kumar,9876543210,HC010,Pain Reliever,90,2025-02-14
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP001,Insulin,50,2025-01-25
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP002,Amoxicillin,200,2024-12-20
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP003,Vitamin C Tablets,180,2024-09-10
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP004,Antibiotic Cream,70,2024-10-20
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP005,Saline Solution,90,2024-08-15
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP006,Paracetamol,130,2025-03-05
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP007,Ibuprofen,160,2024-12-05
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP008,Cough Syrup,85,2024-11-20
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP009,Allergy Medicine,100,2025-07-30
+City Pharmacy,Hyderabad,500002,Ms. Aarti Sharma,9123456789,CP010,Pain Reliever,75,2025-04-10
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH001,Paracetamol,100,2024-11-10
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH002,Antibiotic Cream,75,2024-10-05
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH003,Saline Solution,60,2024-08-29
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH004,Insulin,55,2025-03-15
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH005,Amoxicillin,180,2024-12-25
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH006,Vitamin C Tablets,140,2025-01-20
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH007,Cough Syrup,90,2024-10-10
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH008,Allergy Medicine,80,2025-02-05
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH009,Pain Reliever,100,2025-06-30
+Apollo Hospital,Hyderabad,500003,Dr. Anil Gupta,9234567890,AH010,Antibiotic Ointment,65,2024-12-01
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP001,Insulin,60,2025-02-15
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP002,Ibuprofen,180,2024-11-30
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP003,Vitamin C Tablets,150,2024-10-10
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP004,Antibiotic Cream,70,2024-09-15
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP005,Saline Solution,85,2024-11-05
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP006,Paracetamol,200,2025-03-20
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP007,Allergy Medicine,95,2025-07-15
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP008,Cough Syrup,90,2024-12-10
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP009,Pain Reliever,85,2025-05-05
+MedPlus Pharmacy,Hyderabad,500004,Mr. Ravi Rao,9345678901,MP010,Antibiotic Ointment,60,2024-10-25
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH001,Paracetamol,200,2025-05-20
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH002,Amoxicillin,250,2024-12-25
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH003,Insulin,70,2025-03-05
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH004,Antibiotic Cream,80,2024-09-15
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH005,Saline Solution,100,2024-11-10
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH006,Vitamin C Tablets,160,2025-02-20
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH007,Cough Syrup,85,2024-12-05
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH008,Allergy Medicine,90,2025-01-15
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH009,Pain Reliever,110,2025-03-30
+Care Hospital,Hyderabad,500005,Dr. Sita Patel,9456789012,CH010,Antibiotic Ointment,75,2024-08-20
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM001,Antibiotic Cream,80,2024-09-15
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM002,Saline Solution,90,2024-08-10
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM003,Paracetamol,100,2025-04-22
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM004,Insulin,55,2025-03-10
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM005,Amoxicillin,190,2024-12-05
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM006,Vitamin C Tablets,140,2025-02-15
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM007,Cough Syrup,75,2024-11-25
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM008,Allergy Medicine,85,2025-03-20
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM009,Pain Reliever,90,2025-07-10
+Sai Medical Store,Hyderabad,500006,Ms. Neeta Reddy,9567890123,SM010,Antibiotic Ointment,65,2024-10-15
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH001,Amoxicillin,120,2024-11-15
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH002,Pain Reliever,90,2025-02-10
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH003,Insulin,55,2025-05-30
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH004,Paracetamol,140,2025-07-25
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH005,Antibiotic Cream,70,2024-10-20
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH006,Saline Solution,85,2024-09-05
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH007,Vitamin C Tablets,150,2024-12-15
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH008,Cough Syrup,90,2025-01-05
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH009,Allergy Medicine,100,2025-04-25
+Hyderabad Central Hospital,Hyderabad,500007,Dr. Rajesh Kumar,9678901234,HCH010,Antibiotic Ointment,60,2024-11-10
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP001,Antibiotic Cream,70,2024-10-20
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP002,Saline Solution,80,2024-11-05
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP003,Vitamin C Tablets,150,2024-09-25
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP004,Cough Syrup,85,2024-12-10
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP005,Paracetamol,120,2025-04-20
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP006,Ibuprofen,110,2025-03-05
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP007,Insulin,65,2024-12-30
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP008,Allergy Medicine,80,2025-07-15
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP009,Pain Reliever,75,2025-05-25
+Wellness Pharmacy,Hyderabad,500008,Mr. Manoj Desai,9789012345,WP010,Antibiotic Ointment,55,2024-08-25
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC001,Paracetamol,130,2024-12-30
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC002,Ibuprofen,110,2025-03-20
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC003,Aspirin,140,2025-07-15
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC004,Antibiotic Cream,75,2024-11-15
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC005,Saline Solution,95,2024-10-20
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC006,Insulin,60,2025-02-10
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC007,Vitamin C Tablets,180,2025-01-30
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC008,Cough Syrup,80,2024-12-05
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC009,Allergy Medicine,85,2025-04-15
+Metro Medical Centre,Hyderabad,500009,Dr. Priya Sharma,9890123456,MMC010,Pain Reliever,95,2025-03-25
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH001,Insulin,65,2024-12-15
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH002,Amoxicillin,220,2024-11-01
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH003,Vitamin C Tablets,190,2025-02-20
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH004,Cough Syrup,85,2024-10-30
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH005,Paracetamol,140,2025-05-10
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH006,Ibuprofen,130,2025-01-15
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH007,Antibiotic Cream,75,2024-12-20
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH008,Allergy Medicine,90,2025-06-10
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH009,Pain Reliever,100,2025-03-15
+Fortis Hospital,Hyderabad,500010,Dr. Kavita Singh,9901234567,FH010,Antibiotic Ointment,70,2024-11-25

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Supply Management</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CareLink</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('service') }}">Services</a></li>
+                    <li><a href="{{ url_for('inventory') }}" class="btn btn-secondary">Inventory Management</a></li>
+                    <li><a href="{{ url_for('request_management') }}" class="btn btn-secondary">Request Management</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <div class="header-container">
+            <h1>Distribution Planning</h1>
+            <p class="description">Our distribution planning process ensures that essential supplies are efficiently allocated to hospitals and healthcare facilities. We urge NGOs and organizations to contribute and provide charity to support this crucial cause.</p>
+        </div>
+        
+        {% if highest_shortage %}
+            <div class="scrolling-text">
+                <span>ATTENTION!! {{ highest_shortage.hospital_name }} needs {{ highest_shortage.quantity_needed }} units of {{ highest_shortage.supply_type }}</span>
+            </div>
+        {% else %}
+            <p>No shortages reported yet.</p>
+        {% endif %}
+        
+        <div class="button-container">
+            <a href="{{ url_for('report') }}" class="button">Report a Shortage</a>
+            <a href="{{ url_for('display') }}" class="button">View Shortages</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+SupplyID,SupplyName,Quantity,ExpiryDate,MedicalStoreID
+51,Paracetamol,195,2024-11-08,51
+52,Cough Syrup,225,2025-03-16,52
+53,Insulin,124,2024-12-22,53
+54,Insulin,285,2024-09-25,54
+55,Vitamin C Tablets,173,2025-05-02,55
+56,Cough Syrup,65,2024-12-10,56
+57,Amoxicillin,262,2024-12-16,57
+58,Paracetamol,118,2024-08-15,58
+59,Cough Syrup,65,2025-01-25,59
+60,Ibuprofen,134,2024-12-26,60
+61,Antiseptic Cream,62,2024-12-17,61
+62,Cough Syrup,72,2024-10-03,62
+63,Paracetamol,185,2025-05-24,63
+64,Ibuprofen,238,2024-12-02,64
+65,Paracetamol,158,2024-10-16,65
+66,Vitamin C Tablets,96,2024-12-02,66
+67,Amoxicillin,97,2024-09-11,67
+68,Cough Syrup,241,2024-08-24,68
+69,Antiseptic Cream,227,2024-08-15,69
+70,Cough Syrup,211,2025-02-03,70
+71,Antiseptic Cream,69,2025-04-03,71
+72,Paracetamol,152,2024-10-17,72
+73,Insulin,260,2025-05-08,73
+74,Antiseptic Cream,88,2025-03-14,74
+75,Insulin,250,2024-12-05,75
+76,Amoxicillin,157,2025-04-01,76
+77,Ibuprofen,215,2024-09-02,77
+78,Vitamin C Tablets,72,2024-12-05,78
+79,Insulin,183,2025-07-12,79
+80,Vitamin C Tablets,207,2024-11-20,80
+81,Vitamin C Tablets,98,2024-11-01,81
+82,Vitamin C Tablets,190,2024-12-02,82
+83,Paracetamol,68,2024-08-28,83
+84,Antiseptic Cream,203,2024-10-11,84
+85,Amoxicillin,95,2025-05-14,85
+86,Cough Syrup,74,2025-04-03,86
+87,Ibuprofen,294,2024-11-07,87
+88,Vitamin C Tablets,295,2024-10-04,88
+89,Vitamin C Tablets,156,2025-01-07,89
+90,Paracetamol,254,2025-02-19,90
+91,Antiseptic Cream,81,2024-09-08,91
+92,Paracetamol,110,2025-01-03,92
+93,Cough Syrup,151,2024-10-28,93
+94,Cough Syrup,209,2024-10-17,94
+95,Insulin,139,2024-12-12,95
+96,Amoxicillin,108,2025-08-01,96
+97,Cough Syrup,250,2025-01-17,97
+98,Paracetamol,251,2024-08-16,98
+99,Paracetamol,95,2025-06-16,99
+100,Paracetamol,79,2025-07-24,100

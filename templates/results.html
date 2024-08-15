@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4 text-center">Search Results</h1>
+        {% if results %}
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Store Name</th>
+                    <th>Location</th>
+                    <th>Pin Code</th>
+                    <th>Contact Name</th>
+                    <th>Contact No</th>
+                    <th>Supply Name</th>
+                    <th>Quantity</th>
+                    <th>Expiry Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in results %}
+                <tr>
+                    <td>{{ row['Name'] }}</td>
+                    <td>{{ row['Location'] }}</td>
+                    <td>{{ row['PinCode'] }}</td>
+                    <td>{{ row['ContactName'] }}</td>
+                    <td>{{ row['ContactNo'] }}</td>
+                    <td>{{ row['SupplyName'] }}</td>
+                    <td>{{ row['Quantity'] }}</td>
+                    <td>{{ row['ExpiryDate'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No results found.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

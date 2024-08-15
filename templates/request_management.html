@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Management</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Request Management</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('service') }}">Services</a></li>
+                    <li><a href="{{ url_for('inventory') }}" class="btn btn-secondary">Inventory Management</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="container mt-4">
+        <h2 class="text-center">Find Pharmacies</h2>
+
+        <form method="POST" action="/search" class="mb-4">
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" class="form-control" placeholder="Enter location">
+            </div>
+            <div class="form-group">
+                <label for="supplyName">Supply Name:</label>
+                <input type="text" id="supplyName" name="supplyName" class="form-control" placeholder="Enter supply name">
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+
+        {% if results %}
+        <h3 class="text-center">Search Results</h3>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Store Name</th>
+                    <th>Location</th>
+                    <th>Pin Code</th>
+                    <th>Contact Name</th>
+                    <th>Contact No</th>
+                    <th>Supply Name</th>
+                    <th>Quantity</th>
+                    <th>Expiry Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in results %}
+                <tr>
+                    <td>{{ row['Name'] }}</td>
+                    <td>{{ row['Location'] }}</td>
+                    <td>{{ row['PinCode'] }}</td>
+                    <td>{{ row['ContactName'] }}</td>
+                    <td>{{ row['ContactNo'] }}</td>
+                    <td>{{ row['SupplyName'] }}</td>
+                    <td>{{ row['Quantity'] }}</td>
+                    <td>{{ row['ExpiryDate'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p>No results found.</p>
+        {% endif %}
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2024 Healthcare Supply Distribution. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

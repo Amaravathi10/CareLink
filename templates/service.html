@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - CareLink</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='service.css') }}">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CareLink</h1>
+            <nav>
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('service') }}">Services</a></li>
+                    <li><a href="{{ url_for('request_management') }}" class="btn btn-secondary">Request Management</a></li>
+                    <li><a href="{{ url_for('inventory') }}" class="btn btn-secondary">Inventory Management</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Explore Our Comprehensive Healthcare Solutions</h2>
+            <p>We offer a range of services designed to ensure that essential healthcare supplies are available and distributed where they are needed most.</p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/inventory.jpg') }}" alt="Inventory Management">
+                <h3>Inventory Management</h3>
+                <p>Our Inventory Management system allows healthcare facilities to monitor and manage their stock levels in real-time, ensuring that critical supplies are always available. The system is designed to handle both large and small inventories with ease, providing detailed reports and alerts for low stock levels, expiration dates, and replenishment needs.</p>
+                <p>By maintaining an accurate and up-to-date inventory, healthcare providers can minimize waste, reduce costs, and improve patient care. Our solution integrates seamlessly with existing systems, offering a user-friendly interface and customizable features to suit the needs of any organization.</p>
+                <br><a href="{{ url_for('inventory') }}" class="btn">Learn More</a>
+            </div>
+
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/request.png') }}" alt="Request Management">
+                <h3>Request Management</h3>
+                <p>Our Request Management feature streamlines the process of receiving and fulfilling supply requests from various departments or external facilities. This system ensures that all requests are tracked from submission to delivery, with real-time updates and status notifications.</p>
+                <p>By using our Request Management tool, organizations can prioritize urgent requests, allocate resources efficiently, and ensure that supplies reach their destination on time. This not only improves operational efficiency but also enhances the ability to respond to emergencies and unexpected demands.</p>
+                <br><a href="{{ url_for('request_management') }}" class="btn">Learn More</a>
+            </div>
+
+            <div class="service">
+                <img src="{{ url_for('static', filename='images/dist.png') }}" alt="Distribution Planning">
+                <h3>Distribution Planning</h3>
+                <p>Effective Distribution Planning is crucial for ensuring that healthcare supplies are delivered where they are needed most. Our solution provides tools for planning and scheduling distribution activities, optimizing routes, and tracking deliveries in real-time.</p>
+                <p>With our Distribution Planning feature, organizations can reduce transportation costs, minimize delivery times, and ensure that supplies are allocated efficiently. This feature also supports coordination with multiple partners and stakeholders, making it ideal for large-scale distribution efforts and disaster response initiatives.</p>
+                <br><a href="{{ url_for('distrubation') }}" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Healthcare Supply Distribution. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
