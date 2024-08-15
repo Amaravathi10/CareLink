@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Supply Distribution</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CareLink</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="{{ url_for('service') }}">Services</a></li>
+                    <li><a href="{{ url_for('request_management') }}" class="btn btn-secondary">Request Management</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Ensuring Healthcare Supplies Reach Those in Need</h2>
+            <p>Join us in our mission to distribute essential healthcare supplies to communities in need.</p>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <div class="container">
+            <div class="feature">
+                <img src="{{ url_for('static', filename='images/inventory.jpg') }}" alt="Inventory Management">
+                <br><a href="{{ url_for('inventory') }}" class="btn">Learn More</a>
+                <h3>Inventory Management</h3>
+                <p>Track and manage inventory levels in real-time to ensure supplies are available when needed.</p>
+            </div>
+            <div class="feature">
+                <img src="{{ url_for('static', filename='images/request.png') }}" alt="Request Management">
+                <br><a href="{{ url_for('request_management') }}" class="btn">Learn More</a>
+                <h3>Request Management</h3>
+                <p>Receive and manage supply requests from communities and healthcare facilities efficiently.</p>
+            </div>
+            <div class="feature">
+                <img src="{{ url_for('static', filename='images/dist.png') }}" alt="Distribution Planning">
+                <br><a href="{{url_for('distrubation')}}" class="btn">Learn More</a>
+                <h3>Distribution Planning</h3>
+                <p>Plan and schedule distribution activities to optimize resource allocation.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Healthcare Supply Distribution. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
