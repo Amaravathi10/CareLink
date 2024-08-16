@@ -1,9 +1,7 @@
-# 1125-lo-ki-devs
-
 # CareLink - Healthcare Supply Distribution
 ![Carelink-homepage](static/images/homepage.png)
 
-static/images/homepage.png
+
 ## Overview
 
 CareLink is a web application designed to streamline the distribution of healthcare supplies to hospitals and pharmacies. With features including inventory management, request handling, and distribution planning, CareLink ensures that essential supplies are delivered efficiently and effectively.
